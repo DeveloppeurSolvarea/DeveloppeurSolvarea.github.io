@@ -1,68 +1,70 @@
-
 /*** Modifications pour Com'In ***/
 
 /* Labels */
 .google-visualization-controls-label {
-   color: #F6C970;
+    color: #F6C970;
     font-family: "Maven Pro", "Open sans", sans-serif;
-    font-weight: 300;
+    font-weight: 300 !important;
 }
 
 /* Dropdown */
-.awt-vis-controls-csvFilter .awt-csvFilter-downArrow > svg {
-    fill: #F6C970;
+.awt-vis-controls-csvFilter .awt-csvFilter-downArrow>svg {
+    fill: #F6C970 !important;
 }
 
 /* Cases des filtres */
 .awt-vis-controls-csvFilter .awt-csvFilter-button {
-    border: 1px solid #F6C970;
-    background-color: #F6C97044;
-    color: #fff;
-    display: flex;
-    padding: 3px 8px;
-    vertical-align: middle;
+    border: 1px solid #F6C970 !important;
+    background-color: #F6C97044 !important;
+    color: #fff !important;
 }
+
 .awt-vis-controls-SearchFilter .awt-searchFilter-input {
     border: 1px solid #F6C970 !important;
-    background-color: transparent;
-    color: white;
+    background-color: transparent !important;
+    color: white !important;
 }
 
 /* Pagination et sa decoration */
 .count {
-color: white;
-    border-top: 1px solid #F6C970;
-    border-bottom: 1px solid #F6C970;
-    fill: white;
+    color: white !important;
+    border-top: 1px solid #F6C970 !important;
+    border-bottom: 1px solid #F6C970 !important;
+    fill: white !important;
 }
 
 /* fonts */
 .google-visualization-table-table {
-    font-family: "Maven Pro", arial , helvetica;
+    font-family: "Maven Pro", arial, helvetica !important;
 }
 
 /*  Table */
 .google-visualization-table-tr-odd {
-    background-color: #F6C97055!important;
+    background-color: #F6C97055 !important;
 }
+
 .google-visualization-table-tr-even {
-    background-color: transparent;
+    background-color: transparent !important;
 }
+
 /* links */
 .awt-links {
-    text-decoration: none;
-    color: white;
+    text-decoration: none !important;
+    color: white !important;
 }
+
 /* header font size */
 .google-visualization-table-table .gradient {
     font-size: 19px;
 }
+
 /* height row */
 table.google-visualization-table-table tr {
-       height: 60px;
+    height: 60px;
 }
+
 /* hover */
 .google-visualization-table-tr-sel td,
 .google-visualization-table-tr-over td {
-    background-color: #aaaaaa55;
+    background-color: #aaaaaa55 !important;
 }
