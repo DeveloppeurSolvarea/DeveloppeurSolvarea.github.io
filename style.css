@@ -37,6 +37,7 @@
 .google-visualization-table-table {
     font-family: "Maven Pro", arial, helvetica !important;
     background-color: none;
+    color: white !important
 }
 
 /*  Table */
@@ -48,11 +49,12 @@
 .google-visualization-table-tr-head {
     background-color: #F6C970 !important;
     font-size: 19px !important;
+    font-weight: 300 !important;
     color: white !important;
 }
 
 .google-visualization-table .gradient {
-    background: inherit;
+    background: #F6C970;
 }
 
 /* alternate row */
