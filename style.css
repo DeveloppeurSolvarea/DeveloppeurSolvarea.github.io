@@ -39,6 +39,22 @@
 }
 
 /*  Table */
+.google-visualization-table-table {
+    background-color: transparent !important;
+}
+
+/* header */
+.google-visualization-table-tr-head {
+    background-color: #F6C970;
+    font-size: 19px;
+    color: white;
+}
+
+.google-visualization-table .gradient {
+    background: inherit;
+}
+
+/* alternate row */
 .google-visualization-table-tr-odd {
     background-color: #F6C97055 !important;
 }
@@ -51,11 +67,6 @@
 .awt-links {
     text-decoration: none !important;
     color: white !important;
-}
-
-/* header font size */
-.google-visualization-table-table .gradient {
-    font-size: 19px;
 }
 
 /* height row */
